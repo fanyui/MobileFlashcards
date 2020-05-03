@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity } from "react-native";
 import { Colors } from '../common';
 import { clearNotification, setNotification } from './helper'
-export default function QuizView(props: any) {
+export default function QuizView(props) {
     const { questions } = props
     const [ index, setIndex] = useState(0)
     const [correctQtn, setcorrectQtn] = useState([])

@@ -3,7 +3,7 @@ import { View, Text, SafeAreaView, TextInput, StyleSheet, TouchableOpacity } fro
 import { Colors } from '../common'
 import { mergeData } from './helper'
 import { Actions } from 'react-native-router-flux'
-export default function NewQuestion(props: any) {
+export default function NewQuestion(props) {
 
     const [cardQuestion, setCardQuestion] = useState("")
     const [cardAnswer, setCardAnswer] = useState("")

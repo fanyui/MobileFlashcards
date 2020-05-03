@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, SafeAreaView, StyleSheet, TouchableOpacity } from "react-native";
 import {Colors} from '../common'
 import { Actions } from 'react-native-router-flux'
-export default function DeckView(props: any) {
+export default function DeckView(props) {
     let deck = props.deck
     return(
         <SafeAreaView style={styles.container}>

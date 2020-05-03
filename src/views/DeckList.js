@@ -70,7 +70,7 @@ function DeckList() {
     )
 }
 
-function Item(props: any) {
+function Item(props) {
     const deck = props.item
 
     return (
